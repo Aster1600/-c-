@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <math.h>
+int apple1()
+{
+    int a, b;
+    scanf("%d%d", &a, &b);
+    printf("%d",b/a);
+}
+
+
+int apple2()
+{
+    int a, b;
+    scanf("%d%d", &a, &b);
+    printf("%d",b-a*(b/a));
+}
+
+
+int mkad()
+{
+    int v, t;
+    scanf("%d%d", &v, &t);
+    printf("%d",(11881+v*t)%109);
+}
+
+
+int lastchufra()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d",a%10);
+}
+
+
+int ch10dwch()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d",(a%100-a%10)/10);
+}
+
+
+int ch10()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d",(a%100-a%10)/10);
+}
+
+
+int sumch()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d",a/100+(a%100-a%10)/10+a%10);
+}
